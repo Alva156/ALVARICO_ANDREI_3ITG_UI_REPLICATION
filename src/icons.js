@@ -15,7 +15,7 @@ const icons = [
   { icon: <FaApple /> },
   { icon: <FaSpotify /> },
   { icon: <FaTiktok /> },
-  { icon: <FaWordpress /> }, // There is no "webverse icon so I use 'FaWordpress' as alternative"
+  { icon: <FaWordpress /> }, // There is no "webverse icon in the ReactJS icon library due to copyright restrictions so I use 'FaWordpress' as alternative"
 ];
 
 export default icons;
