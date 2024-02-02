@@ -217,7 +217,7 @@ form {
   gap: 15px;
   justify-content: center;
   margin-top: 40px;
-  font-size: large;
+  font-size: medium;
   color: black;
 }
 .menu a {
@@ -232,7 +232,7 @@ form {
 .copy-right {
   display: inline-block;
   margin-right: 20px;
-  font-size: smaller;
+  font-size: x-small;
 }
 
 .assistance-text {
