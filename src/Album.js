@@ -20,5 +20,3 @@ function Album(props) {
   );
 }
 export default Album;
-
-// rarw
