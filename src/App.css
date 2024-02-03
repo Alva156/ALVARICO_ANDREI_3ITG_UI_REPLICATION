@@ -115,6 +115,7 @@
   width: 350px;
   margin: 10px;
   text-align: center;
+  align-items: center;
   font-family: "Soleil", Arial, Helvetica, Sans-Serif;
   font-size: 14px;
   margin-top: 50px;
@@ -210,6 +211,9 @@ form {
   font-size: 28px;
   gap: 40px;
   justify-content: center;
+}
+.icon-color {
+  color: black;
 }
 
 .menu {

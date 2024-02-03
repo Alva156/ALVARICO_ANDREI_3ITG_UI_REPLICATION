@@ -15,7 +15,13 @@ function Navbar(props) {
             <ul className="dropdown-content">
               {props.dropdownListObj.map((dropdownListObj, index) => (
                 <li key={index}>
-                  <a href={dropdownListObj.url}>{dropdownListObj.name}</a>
+                  <a
+                    href={dropdownListObj.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {dropdownListObj.name}
+                  </a>
                 </li>
               ))}
             </ul>

@@ -17,7 +17,13 @@ function Form() {
         2220 COLORADO AVENUE, SANTA MONICA, <br></br> <br></br>CA 90404 (310)
         865-4000. YOU MAY WITHDRAW YOUR CONSENT AT ANY TIME. SEE PRIVACY POLICY
         AT &nbsp;
-        <a href="">HTTP://PRIVACY.UMUSIC.COM</a>.
+        <a
+          href="https://privacy.umusic.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          HTTP://PRIVACY.UMUSIC.COM
+        </a>
       </p>
     </div>
   );

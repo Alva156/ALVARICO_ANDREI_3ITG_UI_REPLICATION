@@ -3,8 +3,13 @@ function Footer(props) {
     <footer className="footer">
       <div className="social-icons">
         {props.iconsObj.map((iconObj, index) => (
-          <a key={index} href={iconObj.link}>
-            {iconObj.icon}
+          <a
+            key={index}
+            href={iconObj.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="icon-color">{iconObj.icon}</span>
           </a>
         ))}
       </div>
@@ -15,7 +20,12 @@ function Footer(props) {
         </p>
         <div className="menu">
           {props.menuObj.map((menuObj, index) => (
-            <a key={index} href={menuObj.link}>
+            <a
+              key={index}
+              href={menuObj.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {menuObj.name}
             </a>
           ))}
