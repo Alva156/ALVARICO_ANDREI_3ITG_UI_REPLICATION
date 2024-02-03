@@ -33,7 +33,7 @@ function Navbar(props) {
       </div>
       <a href="/cart" className="cart-link">
         <div className="cart">
-          CART (0)
+          CART (0) &nbsp;
           <FontAwesomeIcon icon={faShoppingCart} />
         </div>
       </a>
