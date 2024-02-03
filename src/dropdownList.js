@@ -22,3 +22,4 @@ const dropdownList = [
 ];
 
 export default dropdownList;
+// I added links to every item in the dropdown list just like in the original website

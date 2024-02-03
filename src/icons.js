@@ -40,3 +40,5 @@ const icons = [
 ];
 
 export default icons;
+
+// I added links to the icons just like in the original page

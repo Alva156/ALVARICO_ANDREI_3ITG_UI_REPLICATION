@@ -9,3 +9,5 @@ const menu = [
 ];
 
 export default menu;
+
+// I added links to the menu in the footer just like in the original page
